@@ -5,7 +5,7 @@ from ultralytics import YOLO
 import io
 
 # Charger le modèle YOLOv8
-model = YOLO("best_yolo_bone.pt")
+model = YOLO("best_yolo_dental.pt.pt")
 
 st.title("Détection de dents")
 st.write("Chargez une image pour effectuer une détection.")
